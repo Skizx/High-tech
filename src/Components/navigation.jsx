@@ -1,6 +1,7 @@
 import './_navigation.scss';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
+import { FiX } from 'react-icons/fi'
 import { useState, useEffect } from 'react';
 
 const Navigation = () => {
@@ -32,7 +33,10 @@ const Navigation = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <Link to='#'>Boutiques</Link>
+                        <Link to='/'>Accueil</Link>
+                        </li>
+                        <li>
+                        <Link to='shop'>Setup</Link>
                         </li>
                         <li>
                         <Link to='#'>A propos</Link>
@@ -42,9 +46,15 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </div>
+                {!mobileMenu ? 
                 <span className="mobile-menu" onClick={handleMobileMenu}>
                     <FaBars />
                 </span>
+                :
+                <span className="mobile-menu" onClick={handleMobileMenu}>
+                <FiX />
+                </span>
+                }
             </div>
         </nav>
 

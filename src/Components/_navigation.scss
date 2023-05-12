@@ -1,12 +1,14 @@
 @import '../Styles/Utils/variables.scss';
 
 .navbar-block {
+    padding: 45px 0px;
     width: 100%;
     height: 65px;
     position: fixed;
     line-height: 65px;
     text-align: center;
     color: $color_white;
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar-logo {
@@ -14,6 +16,7 @@
 }
 
 .mobile-menu {
+    display: flex;
     font-size: 24px;
 }
 
@@ -26,7 +29,7 @@
 .navbar-list {
     position: absolute;
     right: 0;
-    top: 120px;
+    top: 65px;
     text-align: center;
     width: 100%;
 }
@@ -46,6 +49,8 @@
 .show-nav {
     opacity: 1;
     transition: all 0.3s ease;
+    background-color: $bgcolor_blue;
+    padding: 40px 0;
 }
 
 .hide-nav {
@@ -54,5 +59,7 @@
 }
 
 .afix {
+    padding: 0;
     background: $color_text;
+    transition: all 0.5s ease-in-out;
 }
