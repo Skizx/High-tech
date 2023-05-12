@@ -1,11 +1,20 @@
 import './_navigation.scss';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navigation = () => {
 
     const [mobileMenu , setMobileMenu] = useState(false);
+
+    const [scroll, setScroll] = useState(false);
+
+
+    useEffect(() => {
+    window.addEventListener("scroll", () => {
+     setScroll(window.scrollY > 20);
+   });
+ }, []);
 
     const handleMobileMenu = () => {
         setMobileMenu(!mobileMenu)
@@ -13,7 +22,7 @@ const Navigation = () => {
 
     return (
         <>
-        <nav className="navbar-block">
+        <nav className={`navbar-block ${scroll ? 'afix' : ''}`}>
             <div className="wrapper navbar-flex">
                 <div className="navbar-logo">
                     <Link to='/'>
