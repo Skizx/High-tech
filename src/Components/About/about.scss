@@ -1,0 +1,46 @@
+@import '../../Styles/Utils/variables.scss';
+
+.about-block {
+    color: $color_black;
+    padding: 80px 0;
+}
+
+.about-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.about-title::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    height: 2px;
+    right: -30px;
+    left: auto;
+    width: 20px;
+    border-top: 2px solid #0a3782;
+}
+
+.about-title::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    height: 2px;
+    left: -30px;
+    right: auto;
+    width: 20px;
+    border-top: 2px solid #0a3782;
+}
+
+.about-img {
+    display: flex;
+    margin: 0 auto 40px;
+    width: 80%;
+    float: none;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
