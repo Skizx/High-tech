@@ -1,8 +1,15 @@
+/* eslint-disable react/no-unescaped-entities */
 import './_navigation.scss';
+import 'react-awesome-slider/dist/styles.css';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
-import { FiX } from 'react-icons/fi'
+import { ImScissors } from 'react-icons/im';
+import { FiX } from 'react-icons/fi';
 import { useState, useEffect } from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoPlay from 'react-awesome-slider/dist/autoplay';
+
+const AutoplaySlider = withAutoPlay(AwesomeSlider)
 
 const Navigation = () => {
 
@@ -58,7 +65,21 @@ const Navigation = () => {
             </div>
         </nav>
 
-        <section className="background-home"></section> 
+        <AutoplaySlider
+        className="background-banner"
+        play={true}
+        interval={6000}
+        organicArrows={false}
+        bullets={false}
+        >
+        <div data-src="/src/images/Coiffeuse-bg-1.jpg" className='carousel-text wrapper-carrousel'>
+            <h2>Bienvenue chez Steph Style</h2>
+            <span className='carrousel-icon'><ImScissors /></span>
+        </div>
+        <div data-src="/src/images/Outils-coiffeur-bg.jpg" className='carousel-text'>
+            <h2>Steph Styles</h2>
+        </div>
+        </AutoplaySlider>
         </>
     );
 };
