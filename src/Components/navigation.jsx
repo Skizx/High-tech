@@ -34,7 +34,7 @@ const Navigation = () => {
             <div className="wrapper navbar-flex">
                 <div className="navbar-logo">
                     <Link to='/'>
-                        My logo
+                        <h1>SSC</h1>
                     </Link>
                 </div>
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
@@ -73,11 +73,10 @@ const Navigation = () => {
         bullets={false}
         >
         <div data-src="/src/images/Coiffeuse-bg-1.jpg" className='carousel-text wrapper-carrousel'>
-            <h2>Bienvenue chez Steph Style</h2>
-            <span className='carrousel-icon'><ImScissors /></span>
+            <h2>Bienvenue chez Steph Style Coiffure</h2>
         </div>
-        <div data-src="/src/images/Outils-coiffeur-bg.jpg" className='carousel-text'>
-            <h2>Steph Styles</h2>
+        <div data-src="/src/images/Outils-coiffeur-bg.jpg" className='carousel-text wrapper-carrousel'>
+            <h2>Steph Style Coiffure</h2>
         </div>
         </AutoplaySlider>
         </>
