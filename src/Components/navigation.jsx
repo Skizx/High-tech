@@ -3,7 +3,6 @@ import './_navigation.scss';
 import 'react-awesome-slider/dist/styles.css';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
-import { ImScissors } from 'react-icons/im';
 import { FiX } from 'react-icons/fi';
 import { useState, useEffect } from 'react';
 import AwesomeSlider from 'react-awesome-slider';
@@ -22,11 +21,21 @@ const Navigation = () => {
     window.addEventListener("scroll", () => {
      setScroll(window.scrollY > 20);
    });
+
+   const navigationLinks = document.querySelectorAll('.navbar-list a');
+
+   navigationLinks.forEach((link) => {
+       link.addEventListener('click', () => {
+           setMobileMenu(false);
+       });
+   });
  }, []);
 
     const handleMobileMenu = () => {
         setMobileMenu(!mobileMenu)
     }
+
+    
 
     return (
         <>
@@ -40,16 +49,16 @@ const Navigation = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <Link to='/'>Accueil</Link>
+                        <a href='#'>Accueil</a>
                         </li>
                         <li>
-                        <Link to='shop'>Setup</Link>
+                        <a href='#'>Prestation</a>
                         </li>
                         <li>
-                        <Link to='#'>A propos</Link>
+                        <a href='#'>A propos</a>
                         </li>
                         <li>
-                        <Link to='#'>Contact</Link>
+                        <a href='#'>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -72,11 +81,14 @@ const Navigation = () => {
         organicArrows={false}
         bullets={false}
         >
-        <div data-src="/src/images/Coiffeuse-bg-1.jpg" className='carousel-text wrapper-carrousel'>
+        <div data-src="/src/images/woman-2359562_1920.jpg" className='carousel-text wrapper-carrousel'>
             <h2>Bienvenue chez Steph Style Coiffure</h2>
         </div>
-        <div data-src="/src/images/Outils-coiffeur-bg.jpg" className='carousel-text wrapper-carrousel'>
+        <div data-src="/src/images/pink-hair-1450045_1920.jpg" className='carousel-text wrapper-carrousel'>
             <h2>Steph Style Coiffure</h2>
+        </div>
+        <div data-src="/src/images/hairdresser-4666064_1920.jpg" className='carousel-text wrapper-carrousel'>
+            <h2>Parceque vous le valait bien</h2>
         </div>
         </AutoplaySlider>
         </>

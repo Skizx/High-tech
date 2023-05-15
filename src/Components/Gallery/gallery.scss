@@ -1,0 +1,38 @@
+@import '../../Styles/Utils/variables.scss';
+
+.gallery-block {
+    padding: 80px 0px;
+    color: $color_black;
+}
+
+.gallery-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.gallery-title::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    height: 2px;
+    right: -30px;
+    left: auto;
+    width: 20px;
+    border-top: 2px solid #0a3782;
+}
+
+.gallery-title::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    height: 2px;
+    left: -30px;
+    right: auto;
+    width: 20px;
+    border-top: 2px solid #0a3782;
+}
+
+.gallery-card img {
+    width: 100%;
+}

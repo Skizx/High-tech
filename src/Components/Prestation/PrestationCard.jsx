@@ -1,8 +1,7 @@
+/* eslint-disable react/prop-types */
 import './prestation.scss';
 
 const PrestationCard = (props) => {
-
-    console.log(props);
 
     return (
         <article>
