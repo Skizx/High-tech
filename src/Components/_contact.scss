@@ -1,17 +1,17 @@
-@import '../../Styles/Utils/variables.scss';
+@import '../Styles//Utils/variables.scss';
 
-.gallery-block {
-    padding: 80px 0px;
+.contact-block {
     color: $color_black;
+    padding: 80px 0;
 }
 
-.gallery-title {
+.contact-title {
     font-size: 22px;
     text-transform: uppercase;
     position: relative;
 }
 
-.gallery-title::after {
+.contact-title::after {
     position: absolute;
     content: "";
     top: 50%;
@@ -22,7 +22,7 @@
     border-top: 2px solid $bgcolor_blue;
 }
 
-.gallery-title::before {
+.contact-title::before {
     position: absolute;
     content: "";
     top: 50%;
@@ -31,8 +31,4 @@
     right: auto;
     width: 20px;
     border-top: 2px solid $bgcolor_blue;
-}
-
-.gallery-card img {
-    width: 100%;
 }

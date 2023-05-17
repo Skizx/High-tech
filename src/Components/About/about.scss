@@ -19,7 +19,7 @@
     right: -30px;
     left: auto;
     width: 20px;
-    border-top: 2px solid #0a3782;
+    border-top: 2px solid $bgcolor_blue;
 }
 
 .about-title::before {
@@ -30,7 +30,7 @@
     left: -30px;
     right: auto;
     width: 20px;
-    border-top: 2px solid #0a3782;
+    border-top: 2px solid $bgcolor_blue;
 }
 
 .about-img {

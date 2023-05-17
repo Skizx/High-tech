@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Prestations from './Pages/Prestations';
 import Galerie from './Pages/Galerie';
 import Error from "./Pages/Error";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   
@@ -20,9 +22,10 @@ function App() {
         <Route exact path="/galerie" element={<Galerie />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
+      <Contact />
     </main>
     <footer>
-      
+      <Footer />
     </footer>
     </>
   )
