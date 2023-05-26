@@ -49,16 +49,19 @@ const Navigation = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <a href='#'>Accueil</a>
+                        <a href='#banner-welcome'>Accueil</a>
                         </li>
                         <li>
-                        <a href='#'>Prestation</a>
+                        <a href='#about'>A propos</a>
                         </li>
                         <li>
-                        <a href='#'>A propos</a>
+                        <a href='#prestation'>Prestation</a>
                         </li>
                         <li>
-                        <a href='#'>Contact</a>
+                        <a href='#galerie'>Galerie</a>
+                        </li>
+                        <li>
+                        <a href='#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>

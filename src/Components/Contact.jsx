@@ -1,6 +1,7 @@
 import './_contact.scss';
 
 import { useEffect, useRef, useState } from 'react';
+import { FaHome, FaPhoneSquareAlt, FaMailBulk } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -41,6 +42,7 @@ const Contact = () => {
                     <div className="detail-content">
                         <div className="detail-block">
                             <div className="detail-title">
+                                <FaHome />
                                 <h5>Déplacement</h5>
                             </div>
                             <div className="detail-text">
@@ -49,18 +51,20 @@ const Contact = () => {
                         </div>
                         <div className="detail-block">
                             <div className="detail-title">
-                                <h5>Déplacement</h5>
+                                <FaPhoneSquareAlt />
+                                <h5>Téléphone</h5>
                             </div>
                             <div className="detail-text">
-                                <p>Tous les jours</p>
+                                <p>060000000</p>
                             </div>
                         </div>
                         <div className="detail-block">
                             <div className="detail-title">
-                                <h5>Déplacement</h5>
+                                <FaMailBulk />
+                                <h5>Email</h5>
                             </div>
                             <div className="detail-text">
-                                <p>Tous les jours</p>
+                                <p>x.gmail.com</p>
                             </div>
                         </div>
                     </div>

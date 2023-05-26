@@ -9,6 +9,20 @@
     font-size: 22px;
     text-transform: uppercase;
     position: relative;
+
+    @media screen and (min-width:992px) {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .about-content {
+        font-size: 24px;
+
+        &_text {
+            font-size: 18px;
+        }
+    }
 }
 
 .about-title::after {

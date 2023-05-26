@@ -1,0 +1,14 @@
+@import '../Styles/Utils/variables.scss';
+
+.footer-block {
+    color: $color_white;
+    background-color: $bgcolor_blue;
+    height: 80px;
+}
+
+.footer-title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
