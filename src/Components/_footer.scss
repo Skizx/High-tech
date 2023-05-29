@@ -11,4 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+
+    @media screen and (min-width:992px) {
+        font-size: 18px;
+    }
 }

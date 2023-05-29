@@ -1,9 +1,10 @@
+import Navbar from "../Components/Navbar/Navbar";
 
 const Prestations = () => {
     return (
-        <div>
-            Prestations
-        </div>
+        <>
+        <Navbar />
+        </>
     );
 };
 

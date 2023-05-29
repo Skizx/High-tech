@@ -8,7 +8,7 @@ const Banner = (props) => {
                 <h3 className='banner-title'>{props.title}</h3>
                 <p className='banner-text'>{props.text}</p>
                 <div className="banner-btn">
-                    <a href="#" role="button">
+                    <a href="#contact" role="button">
                         {props.textButton}
                     </a>
                 </div>

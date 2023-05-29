@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import Navigation from "./Components/navigation";
 import Home from "./Pages/Home";
 import Prestations from './Pages/Prestations';
 import Galerie from './Pages/Galerie';
@@ -12,13 +11,10 @@ function App() {
 
   return (
     <>
-    <header>
-      <Navigation />
-    </header>
     <main>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/prestation/:id " element={<Prestations />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/prestation" element={<Prestations />}></Route>
         <Route exact path="/galerie" element={<Galerie />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>

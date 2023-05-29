@@ -1,4 +1,5 @@
 import './gallery.scss';
+import { RxScissors } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
 
 const Gallery = () => {
@@ -28,6 +29,14 @@ const Gallery = () => {
                     <figure className="gallery-card">
                         <Link to="/galerie">
                             <img src="/images/coupe-courte.png" alt="" />
+                        </Link>
+                    </figure>
+                    <figure className="gallery-card">
+                        <Link to="/galerie">
+                            <div className="gallery-button">
+                            <RxScissors />
+                            <p>Voir plus!</p>
+                            </div>
                         </Link>
                     </figure>
                 </div>

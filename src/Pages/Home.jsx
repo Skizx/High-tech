@@ -1,3 +1,4 @@
+import Navigation from "../Components/navigation";
 import About from "../Components/About/About";
 import Banner from "../Components/Banner/Banner";
 import Gallery from "../Components/Gallery/Gallery";
@@ -7,6 +8,9 @@ import bannerData from '../Data/bannerData.json';
 const Home = () => {
     return (
         <>
+        <header>
+        <Navigation />
+        </header>
         <section id="banner-welcome" className="banner-block">
         {bannerData.map((item , index) => (
         <Banner 

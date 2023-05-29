@@ -49,12 +49,21 @@
 
 .about-img {
     display: flex;
-    margin: 0 auto 40px;
+    margin: 50px auto 40px;
     width: 80%;
     float: none;
+    justify-content: center ;
+    
 }
 
 .about-img img {
     width: 100%;
     height: auto;
+
+    @media screen and (min-width:992px) {
+        width: 80%;
+    }
+    @media screen and (min-width:1200px) {
+        width: 60%;
+    }
 }

@@ -5,6 +5,31 @@
     color: $color_black;
 }
 
+
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 25px;
+
+        @media screen and (min-width:992px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+}
+
+.gallery-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @media screen and (min-width:992px) {
+        width: auto;
+    }
+}
+
 .gallery-title {
     font-size: 22px;
     text-transform: uppercase;
@@ -33,6 +58,30 @@
     border-top: 2px solid $bgcolor_blue;
 }
 
+.gallery-button {
+    border: 1px solid $bgcolor_blue;
+    color: $bgcolor_blue;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 24px;
+
+    &:hover {
+        background-color: $bgcolor_blue;
+        color: $color_white;
+    }
+}
+
 .gallery-card img {
     width: 100%;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        transition: all 0.3s ease-in;
+        transform: rotateZ(10deg);
+    }
+
+    @media screen and (min-width:992px) {
+        width: 400px;
+    }
 }
