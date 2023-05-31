@@ -1,0 +1,18 @@
+@import '../../Styles/Utils/variables.scss';
+
+.about-gallery_block {
+    padding-top: 80px;
+    color: $color_black;
+}
+
+.aboutgallery {
+    font-size: 16px;
+
+    &_title {
+        font-size: 22px;
+    }
+}
+
+.about-gallery_content img {
+    width: 100%;
+}
