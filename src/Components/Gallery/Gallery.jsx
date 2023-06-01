@@ -35,7 +35,7 @@ const Gallery = () => {
                         <Link to="/galerie">
                             <div className="gallery-button">
                             <RxScissors />
-                            <p>Voir plus!</p>
+                            <p>Voir plus !</p>
                             </div>
                         </Link>
                     </figure>

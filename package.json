@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@rcaferati/wac": "^1.0.0",
     "axios": "^1.4.0",
     "emailjs-com": "^3.2.0",
     "json-server": "^0.17.3",
