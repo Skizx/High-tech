@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AboutGallery from "../Components/AboutGallery/AboutGallery";
 import Navbar from "../Components/Navbar/Navbar";
+import Afterbefore from "../Components/AfterBefore/Afterbefore";
 
 const Galerie = () => {
 
@@ -15,6 +16,7 @@ const Galerie = () => {
         <>
         <Navbar /> 
         <AboutGallery />
+        <Afterbefore />
         </>
     );
 };

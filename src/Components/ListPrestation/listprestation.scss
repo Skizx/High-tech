@@ -1,0 +1,17 @@
+@import "../../Styles/Utils/variables.scss";
+
+.listprestation-block {
+    color: $color-black;
+    margin-top: 80px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+.list-container li {
+    display: flex;
+    justify-content: space-between;
+}

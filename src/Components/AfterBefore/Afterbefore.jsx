@@ -1,18 +1,18 @@
-import './aboutgallery.scss';
+import '../AboutGallery/aboutgallery.scss';
 
-const AboutGallery = () => {
+const Afterbefore = () => {
     return (
         <>
         <section id="about-gallery" className="about-gallery_block">
         <div className="wrapper">
             <div className="about-gallery_container">
                 <div className="about-gallery_text">
-                    <h6 className='aboutgallery'>Galerie photos</h6>
-                    <h2 className='aboutgallery-title'>La galerie photo SSC</h2>
+                    <h6 className='aboutgallery'>Bienvenue chez StephStyleCoiffure</h6>
+                    <h2 className='aboutgallery-title'>Photo avant/après</h2>
                     <p className='aboutgallery-txt'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio doloribus quo reiciendis consequatur unde non ducimus pariatur totam sapiente, animi repellat cupiditate, beatae a repudiandae sit aspernatur repellendus cum facilis!</p>
                 </div>
                 <div className="about-gallery_content">
-                    <img src="/images/carre-plongeant.png" alt="" />
+                    <img src="/images/coupe-courte.png" alt="" />
                 </div>
             </div>
         </div>
@@ -21,4 +21,4 @@ const AboutGallery = () => {
     );
 };
 
-export default AboutGallery;
+export default Afterbefore;

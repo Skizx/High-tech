@@ -27,7 +27,7 @@ const Prestation = () => {
                         </div>
                     ))}
                         <figure className="gallery-card">
-                        <Link to="/galerie">
+                        <Link to="/prestation">
                         <div className="gallery-button">
                         <RxScissors />
                         <p>Voir plus !</p>

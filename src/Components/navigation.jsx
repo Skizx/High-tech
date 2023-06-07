@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import './_navigation.scss';
-import 'react-awesome-slider/dist/styles.css';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { FiX } from 'react-icons/fi';
@@ -49,7 +48,7 @@ const Navigation = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <a href='#banner-welcome'>Acceuil</a>
+                        <a href='#banner-welcome'>Accueil</a>
                         </li>
                         <li>
                         <a href='#about'>A propos</a>
@@ -83,15 +82,16 @@ const Navigation = () => {
         interval={6000}
         organicArrows={false}
         bullets={false}
+        button={false}
         >
         <div data-src="/src/images/woman-2359562_1920.jpg" className='carousel-text wrapper-carrousel'>
             <h2>Bienvenue chez Steph Style Coiffure</h2>
         </div>
         <div data-src="/src/images/pink-hair-1450045_1920.jpg" className='carousel-text wrapper-carrousel'>
-            <h2>Steph Style Coiffure</h2>
+            <h2>Hapiness is a good hair day</h2>
         </div>
         <div data-src="/src/images/hairdresser-4666064_1920.jpg" className='carousel-text wrapper-carrousel'>
-            <h2>Parceque vous le valait bien</h2>
+            <h2>Love is in the hair</h2>
         </div>
         </AutoplaySlider>
         </>

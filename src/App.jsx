@@ -11,7 +11,6 @@ function App() {
 
   return (
     <>
-    <main>
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/prestation" element={<Prestations />}></Route>
@@ -19,7 +18,6 @@ function App() {
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Contact />
-    </main>
     <footer>
       <Footer />
     </footer>

@@ -9,28 +9,30 @@ const Home = () => {
     return (
         <>
         <header>
-        <Navigation />
+            <Navigation />
         </header>
-        <section id="banner-welcome" className="banner-block">
-        {bannerData.map((item , index) => (
-        <Banner 
-        key={index}
-        title={item.title}
-        text={item.text}
-        textButton={item.textButton}
-        />
-        ))}
-        </section>
-         <About />
-         <Prestation />
-         <section id="banner-contact" className="banner-block">
-        <Banner
-        title= "Vous pouvez aussi me contacter"
-        text= "Pour tous renseignement concernant les tarifs et les zones de deplacement"
-        textButton= "Contact"
-        />
-         </section>
-         <Gallery />
+        <main>
+            <section id="banner-welcome" className="banner-block">
+            {bannerData.map((item , index) => (
+            <Banner
+            key={index}
+            title={item.title}
+            text={item.text}
+            textButton={item.textButton}
+            />
+            ))}
+            </section>
+             <About />
+             <Prestation />
+             <section id="banner-contact" className="banner-block">
+            <Banner
+            title= "Vous pouvez aussi me contacter"
+            text= "Pour tous renseignement concernant les tarifs et les zones de deplacement"
+            textButton= "Contact"
+            />
+             </section>
+             <Gallery />
+        </main>
         </>
     );
 };

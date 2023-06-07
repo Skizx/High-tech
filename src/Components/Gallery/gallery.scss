@@ -9,6 +9,7 @@
     .gallery-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-top: 50px;
         gap: 25px;
 
@@ -58,12 +59,17 @@
     border-top: 2px solid $bgcolor_blue;
 }
 
+.gallery-button a {
+    margin-top: 80px;
+}
+
 .gallery-button {
     border: 1px solid $bgcolor_blue;
+    background-color: $color_white;
     color: $bgcolor_blue;
     text-align: center;
-    width: 200px;
-    border-radius: 5px;
+    width: 120px;
+    border-radius: 100%;
     font-size: 24px;
 
     &:hover {
@@ -74,6 +80,7 @@
 
 .gallery-card img {
     width: 100%;
+    border-radius: 100%;
     transition: all 0.3s ease-in;
 
     &:hover {
