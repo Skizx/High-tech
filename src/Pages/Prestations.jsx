@@ -4,6 +4,8 @@ import Wprestation from "../Components/WPrestation/Wprestation";
 import ListPrestation from "../Components/ListPrestation/ListPrestation";
 import liPrestation  from "../Data/prestationWomen.json";
 import Mprestation from "../Components/Mprestation/Mprestation";
+import BannerWomen from "../Components/BannerWomen/BannerWomen";
+import BannerMen from "../Components/BannerMen/BannerMen";
 
 const Prestations = () => {
 
@@ -22,37 +24,43 @@ const Prestations = () => {
         <main>
             <Wprestation />
             <section id="list-prestation" className="listprestation-block">
-            {liPrestation.map((item, index) => (
-                <ListPrestation
-                key={index}
-                title={item.title}
-                price={item.price}
-                />
-            ))}
+            <div className="wrapper">
+                {liPrestation.map((item, index) => (
+                    <ListPrestation
+                    key={index}
+                    title={item.title}
+                    price={item.price}
+                    />
+                ))}
+            </div>
             </section>
+            <BannerWomen />
             <Mprestation />
             <section id="list-prestation" className="listprestation-block">
-            <ListPrestation 
-            title = "Dégradé"
-            price = "25"
-            />
-            <ListPrestation 
-            title = "Dégradé"
-            price = "25"
-            />
-            <ListPrestation 
-            title = "Dégradé"
-            price = "25"
-            />
-            <ListPrestation 
-            title = "Dégradé"
-            price = "25"
-            />
-            <ListPrestation 
-            title = "Dégradé"
-            price = "25"
-            />
+            <div className="wrapper">
+                <ListPrestation
+                title = "Shampooing + coiffage"
+                price = "24"
+                />
+                <ListPrestation
+                title = "Shampooing + coupe + coiffage"
+                price = "34"
+                />
+                <ListPrestation
+                title = "Coloration Homme"
+                price = "49"
+                />
+                <ListPrestation
+                title = "Shampooing + coupe + coiffage étudiants (du lundi au mercredi)"
+                price = "20"
+                />
+                <ListPrestation
+                title = "Shampooing + coupe + coiffage enfants -12 ans"
+                price = "28"
+                />
+            </div>
             </section>
+            <BannerMen />
         </main>
         </>
     );

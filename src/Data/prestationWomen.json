@@ -1,26 +1,26 @@
 [
     {
-        "title" : "Shampooing Coiffage",
+        "title" : "Shampooing + Coiffage",
         "price" : 31
     },
     {
-        "title" : "Shampooing Coupe Coiffage",
+        "title" : "Shampooing + Coupe + Coiffage",
         "price" : 55
     },
     {
-        "title" : "Shampooing Coupe Coiffage étudiant",
+        "title" : "Shampooing + Coupe + Coiffage étudiant",
         "price" : 45
     },
     {
-        "title" : "Shampooing Coupe Coiffage enfant -12ans",
+        "title" : "Shampooing + Coupe + Coiffage enfant -12ans",
         "price" : 25
     },
     {
-        "title" : "Shampooing Coupe Coiffage Attaché",
+        "title" : "Shampooing + Coupe + Coiffage Attaché",
         "price" : 55
     },
     {
-        "title" :"Shampooing Coupe Coiffage Chignon",
+        "title" :"Shampooing + Coupe + Coiffage Chignon",
         "price" : 90 
     }
 ]
