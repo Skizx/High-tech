@@ -3,6 +3,10 @@
 .about-gallery_block {
     padding-top: 80px;
     color: $color_black;
+
+    @media screen and (min-width:992px) {
+        padding-top: 160px;
+    }
 }
 
 .aboutgallery {

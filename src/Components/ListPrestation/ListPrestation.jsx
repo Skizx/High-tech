@@ -7,7 +7,6 @@ const ListPrestation = (props) => {
                 <ul className="list-container">
                     <li>{props.title}  <span>{props.price}€</span></li>
                 </ul>
-                <img src={props.image} alt="" />
         </>
     );
 };

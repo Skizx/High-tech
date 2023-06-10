@@ -1,11 +1,15 @@
 @import '../../Styles/Utils/variables.scss';
 
 .prestation-block {
-    background-image: url('../../images/splash-bg.avif');
+    background-image: url('../../images/ballet-pose-1725207_1920.jpg');
     background-attachment: fixed;
     background-repeat: round;
     padding: 80px 0px;
     color: $color_black;
+
+    @media screen and (min-width:992px) {
+        padding: 160px 0px;
+    }
 }
 
 .prestation-title {
@@ -42,7 +46,7 @@
 
 article img {
     width: 100%;
-    height: 250px;
+    height: 320px;
     object-fit: cover;
     object-position: top;
     border-radius: 5%;
@@ -58,7 +62,7 @@ article img {
 .card-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
 
     @media screen and (min-width:992px) {
         flex-direction: row;
@@ -67,6 +71,8 @@ article img {
 
 .card-prestation {
     transition: 0.6s linear;
+
+
     &:hover {
         perspective: 100px;
         transform: rotateY(180deg);
@@ -75,7 +81,7 @@ article img {
     }
 
     @media screen and (min-width:992px) {
-        width: 25%;
+        width: 33%;
     }
 }
 
@@ -108,10 +114,10 @@ article img {
     align-items: center;
     width: 92%;
     height: 90%;
-    border: 2px solid $color_white;
+    border: 4px solid $color_white;
     border-radius: 5%;
 }
 
 .border p {
-    font-size: 18px;
+    font-size: 24px;
 }

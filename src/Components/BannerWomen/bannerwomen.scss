@@ -1,10 +1,15 @@
 @import "../../Styles/Utils/variables.scss";
 
 .bannerwomen-block {
-    background-image: url("/public/images/woman-3220835_1280.jpg");
+    background-image: url("/images/woman-3220835_1280.jpg");
     background-size: cover;
     background-color: gray;
     background-blend-mode: multiply;
     color: $color-white;
-    padding: 50px 0;
+    padding: 80px 0;
+
+    @media screen and (min-width:992px) {
+        padding: 160px 0px;
+        background-position: center;
+    }
 }

@@ -57,10 +57,9 @@
     }
 }
 
-.navbar-ul li:hover {
-    background-color: $color_white;
-    color: $bgcolor_blue;
-    border-radius: 25px;
+.navbar-ul li a:hover {
+    border-bottom: 4px solid $color_white;
+    border-radius: 10px;
 }
 
 .background-banner {

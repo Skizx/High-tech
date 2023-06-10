@@ -24,6 +24,7 @@ const Contact = () => {
   useEffect(() => {
     if(status === 'SUCCESS') {
         alert('Message envoyé avec succes');
+        window.location.reload(false)
     }
   })
 
@@ -43,7 +44,7 @@ const Contact = () => {
                         <div className="detail-block">
                             <div className="detail-title">
                                 <FaHome />
-                                <h5>Déplacement</h5>
+                                <h3>Déplacement</h3>
                             </div>
                             <div className="detail-text">
                                 <p>Tous les jours</p>
@@ -52,19 +53,19 @@ const Contact = () => {
                         <div className="detail-block">
                             <div className="detail-title">
                                 <FaPhoneSquareAlt />
-                                <h5>Téléphone</h5>
+                                <h3>Téléphone</h3>
                             </div>
                             <div className="detail-text">
-                                <p>060000000</p>
+                                <p>0673765906</p>
                             </div>
                         </div>
                         <div className="detail-block">
                             <div className="detail-title">
                                 <FaMailBulk />
-                                <h5>Email</h5>
+                                <h3>Email</h3>
                             </div>
                             <div className="detail-text">
-                                <p>x.gmail.com</p>
+                                <p>fany_22@gmail.com</p>
                             </div>
                         </div>
                     </div>

@@ -69,8 +69,9 @@
     color: $bgcolor_blue;
     text-align: center;
     width: 120px;
+    font-size: 18px;
     border-radius: 100%;
-    font-size: 24px;
+    padding: 20px 0;
 
     &:hover {
         background-color: $bgcolor_blue;
@@ -80,15 +81,24 @@
 
 .gallery-card img {
     width: 100%;
-    border-radius: 100%;
+    height: fit-content;
+    object-fit: cover;
+    transform: scale(100%);
     transition: all 0.3s ease-in;
 
     &:hover {
         transition: all 0.3s ease-in;
-        transform: rotateZ(10deg);
+        transform: scale(105%);
     }
 
     @media screen and (min-width:992px) {
         width: 400px;
+        height: 400px;
     }
+}
+
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }

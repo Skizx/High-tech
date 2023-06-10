@@ -9,7 +9,6 @@ const PrestationCard = (props) => {
                 <figcaption className="card-hover">
                     <div className="border">
                         <p>{props.name}</p>
-                        <p>{props.price} €</p>
                     </div>
                 </figcaption>
         </article>

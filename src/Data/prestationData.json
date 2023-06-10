@@ -1,30 +1,20 @@
 [
     {
         "id": "Ce9856rg",
-        "name": "Carré plongeant",
+        "name": "Coiffure Femme",
         "altpicture": "Photo d'une femme coupe carré plongeant",
-        "price": 10,
-        "picture": "/images/carre-plongeant.png"
+        "picture": "/images/coupe-courte.png"
     },
     {
         "id": "ezhtr89",
-        "name": "Tresse Pour Cheveux",
-        "altpicture": "Photo d'une femme coupe avec des tresses",
-        "price": 10,
-        "picture": "/images/Tresse-coiffure.jpeg"
+        "name": "Coiffure Homme",
+        "altpicture": "Photo d'un homme haute coiffure",
+        "picture": "/images/telescope-gee49160cb_1280.jpg"
     },
     {
         "id": "azd66daz",
-        "name": "Coupe courte avec frange",
-        "altpicture": "Photo d'une femme coupe courte avec frange",
-        "price": 10,
-        "picture": "/images/Coupe-courte-avec-frange.webp"
-    },
-    {
-        "id": "yht86fe",
-        "name": "Coupe courte",
-        "altpicture": "Photo d'une femme coupe courte",
-        "price": 10,
-        "picture": "/images/coupe-courte.png"
+        "name": "Coiffure Enfant",
+        "altpicture": "Photo d'un enfant coiffure",
+        "picture": "/images/girl-g607d5b778_1280.jpg"
     }
 ]

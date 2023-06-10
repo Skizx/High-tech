@@ -19,7 +19,7 @@ body {
     color: $color_white;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -39,6 +39,7 @@ a {
 
 header li {
     cursor: pointer;
+    padding: 0px 20px;
 }
 
 li {

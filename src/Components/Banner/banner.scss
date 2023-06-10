@@ -3,6 +3,10 @@
 .banner-block {
     background-color: $bgcolor_blue;
     padding: 80px 0;
+
+    @media screen and (min-width:992px) {
+        padding: 160px 0;
+    }
 }
 
 .banner-title {
