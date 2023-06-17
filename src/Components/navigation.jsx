@@ -48,7 +48,7 @@ const Navigation = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <a href='#banner-welcome'>Accueil</a>
+                        <a href='#root'>Accueil</a>
                         </li>
                         <li>
                         <a href='#about'>A propos</a>

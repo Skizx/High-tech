@@ -144,4 +144,21 @@
   .horaire {
     margin-top: 40px;
   }
+
+  .succes-message {
+    border: 2px solid $color_text;
+    background-color: $bgcolor_blue;
+    padding: 40px;
+    border-radius: 5px;
+
+    &_block {
+      width: 100%;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $color_white;
+      top: 50%;
+    }
+  }
   

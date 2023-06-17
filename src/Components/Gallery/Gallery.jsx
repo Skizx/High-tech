@@ -1,6 +1,8 @@
 import './gallery.scss';
 import { RxScissors } from 'react-icons/rx';
+import ModalImage from "react-modal-image";
 import { Link } from 'react-router-dom';
+
 
 const Gallery = () => {
     return (
@@ -12,19 +14,44 @@ const Gallery = () => {
                 </div>
                 <div className="gallery-container">
                     <figure className="gallery-card">
-                            <img src="/images/woman-g3b259a94c_1280.jpg" alt="Femme coiffure dorée" />
+                            <ModalImage
+                            small = {"/images/carre-plongeant.png"} 
+                            large = {"/images/carre-plongeant.png"}
+                            alt= "Photo femme coupe carre"
+                            className='modal-image'
+                            />  
                     </figure>
                     <figure className="gallery-card">
-                            <img src="/images/woman-g0065de704_1280.jpg" alt="Tresse queue de cheval" />
+                            <ModalImage
+                            small = {"/images/woman-g0065de704_1280.jpg"} 
+                            large = {"/images/woman-g0065de704_1280.jpg"}
+                            alt= "Photo cheveux tressé"
+                            className='modal-image'
+                            />  
                     </figure>
                     <figure className="gallery-card">
-                            <img src="/images/woman-gd2f852243_1280.jpg" alt="Femme coiffure noir et blanc" />
+                            <ModalImage
+                            small = {"/images/woman-gd2f852243_1280.jpg"} 
+                            large = {"/images/woman-gd2f852243_1280.jpg"}
+                            alt= "Photo femme fond noir&blanc"
+                            className='modal-image'
+                            />  
                     </figure>
                     <figure className="gallery-card">
-                            <img src="/images/model-g2fcb247dd_1280.jpg" alt="Enfant sur fond dorée" />
+                            <ModalImage
+                            small = {"/images/model-g2fcb247dd_1280.jpg"} 
+                            large = {"/images/model-g2fcb247dd_1280.jpg"}
+                            alt= "Photo fille blonde dans un champ"
+                            className='modal-image'
+                            />  
                     </figure>
                     <figure className="gallery-card">
-                            <img src="/images/man-gc080c1652_1280.jpg" alt="Homme coiffure noir et blanc" />
+                            <ModalImage
+                            small = {"/images/man-gc080c1652_1280.jpg"} 
+                            large = {"/images/man-gc080c1652_1280.jpg"}
+                            alt= "Homme coiffure fond noir&blanc"
+                            className='modal-image'
+                            />  
                     </figure>
                 </div>
                     <div className="see-more">
