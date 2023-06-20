@@ -1,19 +1,22 @@
 [
     {
         "id": "Ce9856rg",
-        "name": "Coiffure Femme",
+        "name": "Voir tarifs Femme",
+        "title" : "Femme",
         "altpicture": "Photo d'une femme coupe carré plongeant",
         "picture": "/images/coupe-courte.png"
     },
     {
         "id": "ezhtr89",
-        "name": "Coiffure Homme",
+        "name": "Voir tarifs Homme",
+        "title" : "Homme",
         "altpicture": "Photo d'un homme haute coiffure",
         "picture": "/images/telescope-gee49160cb_1280.jpg"
     },
     {
         "id": "azd66daz",
-        "name": "Coiffure Enfant",
+        "name": "Voir tarifs Enfant",
+        "title" : "Enfant",
         "altpicture": "Photo d'un enfant coiffure",
         "picture": "/images/girl-g607d5b778_1280.jpg"
     }

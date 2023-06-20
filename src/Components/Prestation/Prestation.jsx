@@ -20,6 +20,7 @@ const Prestation = () => {
                                 picture={prestation.picture}
                                 name={prestation.name}
                                 alt={prestation.altpicture}
+                                title= {prestation.title}
                                 />
                             </Link>
                         </div>

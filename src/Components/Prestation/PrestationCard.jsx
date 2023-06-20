@@ -8,9 +8,12 @@ const PrestationCard = (props) => {
                 <img src={props.picture} alt={props.alt} />
                 <figcaption className="card-hover">
                     <div className="border">
-                        <p>{props.name}</p>
+                        <h4>{props.name}</h4>
                     </div>
                 </figcaption>
+                    <div className="title-card">
+                        <p>Coiffure {props.title}</p>
+                    </div>    
         </article>
     );
 };

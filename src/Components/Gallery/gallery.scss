@@ -90,11 +90,11 @@
     height: fit-content;
     object-fit: cover;
     transform: scale(100%);
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 
     &:hover {
         transition: all 0.3s ease-in;
-        transform: scale(105%);
+        transform: scale(102%);
     }
 
     @media screen and (min-width:992px) {

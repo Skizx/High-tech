@@ -9,14 +9,37 @@
     }
 }
 
+.about-gallery_text {
+    text-align: center;
+}
+
 .aboutgallery {
     font-size: 16px;
+    color: $bgcolor_blue;
 
-    &_title {
+    &-txt {
+        margin-bottom: 40px;
+    }
+
+    &-title {
         font-size: 22px;
     }
 }
 
 .about-gallery_content img {
-    width: 100%;
+    object-fit: cover;
+}
+
+
+.yarl__navigation_next {
+    display: none;
+}
+
+
+.yarl__navigation_prev {
+    display: none;
+}
+
+.yarl__button:hover {
+    background-color: $bgcolor_blue;
 }

@@ -73,12 +73,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <form className='contact-form' ref={form} onSubmit={sendEmail}>  
-                  <label>Nom*</label>
-                  <input type="text" required='required' name="user_name" />
-                  <label>Email*</label>
-                  <input type="email" required='required' name="user_email" />
-                  <label>Message*</label>
-                  <textarea required="required" name="message" />
+                  <label htmlFor="user_name1">Nom*</label>
+                  <input type="text" required='required' name="user_name" id='user_name1' />
+                  <label htmlFor="user_email1">Email*</label>
+                  <input type="email" required='required' name="user_email" id='user_email1' />
+                  <label htmlFor="message1">Message*</label>
+                  <textarea required="required" name="message" id='message1'/>
                   <input type="submit" value="Envoyer" />
                 </form>
             </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                 <h2 className="contact-title txt-center">Contact</h2>
             </div>
                 <div className="contact-text">
-                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au xxxxxxx.</p>
+                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au 0673765906.</p>
                 </div>
                 <div className="horaire">
                     <h2 className='txt-center'>Horaire & informations</h2>
@@ -131,12 +131,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <form className='contact-form' ref={form} onSubmit={sendEmail}>  
-                  <label>Nom*</label>
-                  <input type="text" required='required' name="user_name" />
-                  <label>Email*</label>
-                  <input type="email" required='required' name="user_email" />
-                  <label>Message*</label>
-                  <textarea required="required" name="message" />
+                  <label htmlFor="user_name1">Nom*</label>
+                  <input type="text" required='required' name="user_name" id='user_name1' />
+                  <label htmlFor="user_email1">Email*</label>
+                  <input type="email" required='required' name="user_email" id='user_email1' />
+                  <label htmlFor="message1">Message*</label>
+                  <textarea required="required" name="message" id='message1'/>
                   <input type="submit" value="Envoyer" />
                 </form>
             </div>
