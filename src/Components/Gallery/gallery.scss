@@ -32,9 +32,15 @@
 }
 
 .gallery-title {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 400;
     text-transform: uppercase;
     position: relative;
+    letter-spacing: 2px;
+
+    @media screen and (min-width:992px) {
+        font-size: 24px;
+    }
 }
 
 .gallery-title::after {
@@ -45,7 +51,12 @@
     right: -30px;
     left: auto;
     width: 20px;
-    border-top: 2px solid $bgcolor_blue;
+    border-top: 3px solid $color_gold;
+
+    @media screen and (min-width:992px) {
+        right: -90px;
+        width: 60px;
+    }
 }
 
 .gallery-title::before {
@@ -56,7 +67,12 @@
     left: -30px;
     right: auto;
     width: 20px;
-    border-top: 2px solid $bgcolor_blue;
+    border-top: 3px solid $color_gold;
+
+    @media screen and (min-width:992px) {
+        left: -90px;
+        width: 60px;
+    }
 }
 
 .gallery-button a {
@@ -68,10 +84,10 @@
     background-color: $color_white;
     color: $bgcolor_blue;
     text-align: center;
-    width: 200px;
+    width: 150px;
     font-size: 18px;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 10px;
 
     &:hover {
         background-color: $bgcolor_blue;

@@ -1,8 +1,10 @@
 @import '../../Styles/Utils/variables.scss';
 
 .prestation-block {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, #330F49 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/Coiffeuse-bg-1.jpg");
     padding: 80px 0px;
     color: $color_black;
 
@@ -14,6 +16,8 @@
 .prestation-title {
     font-size: 22px;
     text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
     position: relative;
 
     @media screen and (min-width:992px) {
@@ -29,7 +33,12 @@
     right: -30px;
     left: auto;
     width: 20px;
-    border-top: 2px solid $bgcolor_blue;
+    border-top: 3px solid $color_gold;
+
+    @media screen and (min-width:992px) {
+        right: -90px;
+        width: 60px;
+    }
 }
 
 .prestation-title::before {
@@ -40,7 +49,12 @@
     left: -30px;
     right: auto;
     width: 20px;
-    border-top: 2px solid $bgcolor_blue;
+    border-top: 3px solid $color_gold;
+
+    @media screen and (min-width:992px) {
+        left: -90px;
+        width: 60px;
+    }
 }
 
 article img {
@@ -97,9 +111,11 @@ article img {
     top: 0;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 93%;
     transform: rotateY(180deg);
     transition: 0.4s ease-in-out;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 
     &:hover {
         opacity: 1;

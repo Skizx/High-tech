@@ -1,7 +1,5 @@
 import './gallery.scss';
-import { RxScissors } from 'react-icons/rx';
 import ModalImage from "react-modal-image";
-import { Link } from 'react-router-dom';
 
 
 const Gallery = () => {
@@ -10,8 +8,9 @@ const Gallery = () => {
         <section id="galerie" className="gallery-block">
             <div className="wrapper">
                 <div className="flex-center_content">
-                    <h2 className="gallery-title txt-center">Galeries photo</h2>
+                    <h2 className="gallery-title txt-center">Galeries photos</h2>
                 </div>
+                    <p className='txt-center'>Quelques exemples de mes réalisations.</p>
                 <div className="gallery-container">
                     <figure className="gallery-card">
                             <ModalImage
@@ -54,14 +53,6 @@ const Gallery = () => {
                             />  
                     </figure>
                 </div>
-                    <div className="see-more">
-                        <Link to="/galerie">
-                            <div className="gallery-button">
-                            <RxScissors />
-                            <h3>Voir plus !</h3>
-                            </div>
-                        </Link>
-                    </div>
             </div>
         </section>  
         </>

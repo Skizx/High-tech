@@ -18,15 +18,20 @@ const Prestations = () => {
         })
     })
 
+    const coiffure = "COIFFURE";
+
     return (
         <>
         <header>
             <Navbar />
         </header>
         <main>
+            <BannerWomen />
             <Wprestation />
             <section id="list-prestation" className="listprestation-block">
             <div className="wrapper">
+            <div className="list-container">
+                <h3>{coiffure}</h3>
                 {liPrestation.map((item, index) => (
                     <ListPrestation
                     key={index}
@@ -35,11 +40,14 @@ const Prestations = () => {
                     />
                 ))}
             </div>
+            </div>
             </section>
-            <BannerWomen />
+            <BannerMen />
             <Mprestation />
             <section id="list-prestation" className="listprestation-block">
             <div className="wrapper">
+            <div className="list-container">
+                <h3>{coiffure}</h3>
                 <ListPrestation
                 title = "Shampooing + coiffage"
                 price = "24"
@@ -60,12 +68,15 @@ const Prestations = () => {
                 title = "Shampooing + coupe + coiffage enfants -12 ans"
                 price = "28"
                 />
+                </div>
             </div>
             </section>
-            <BannerMen />
+            <Bannerchild />
             <Eprestation />
             <section id="list-prestation" className="listprestation-block">
             <div className="wrapper">
+            <div className="list-container">
+                <h3>{coiffure}</h3>
                 <ListPrestation
                 title = "Shampooing + coiffage"
                 price = "12"
@@ -86,9 +97,9 @@ const Prestations = () => {
                 title = "Shampooing + coupe + coiffage enfants -12 ans"
                 price = "15"
                 />
+                </div>
             </div>
             </section>
-            <Bannerchild />
         </main>
         </>
     );

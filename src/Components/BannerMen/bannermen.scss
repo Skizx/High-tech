@@ -3,8 +3,9 @@
 .bannermen-block {
     background-image: url("/images/expocosmetics-1324900_1280.jpg");
     background-size: cover;
-    background-color: gray;
-    background-blend-mode: multiply;
+    background-color: $bgcolor_blue;
+    background-blend-mode: soft-light;
+    background-position: center;
     color: $color-white;
     padding: 80px 0;
 

@@ -3,13 +3,13 @@
 .bannerwomen-block {
     background-image: url("/images/woman-3220835_1280.jpg");
     background-size: cover;
-    background-color: gray;
-    background-blend-mode: multiply;
+    background-color: $bgcolor_blue;
+    background-blend-mode: soft-light;
     color: $color-white;
-    padding: 80px 0;
+    padding: 160px 0 80px 0;
+    background-position: center;
 
     @media screen and (min-width:992px) {
         padding: 160px 0px;
-        background-position: center;
     }
 }

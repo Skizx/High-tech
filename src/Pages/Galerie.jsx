@@ -13,7 +13,9 @@ const Galerie = () => {
 
     return (
         <>
-        <Navbar /> 
+        <header>
+            <Navbar /> 
+        </header>
         <AboutGallery />
         </>
     );

@@ -2,24 +2,88 @@
 
 .listprestation-block {
     color: $color-black;
-    margin-top: 80px;
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 16px 16px 16px;
 }
 
 .list-container {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
+    display: grid;
+    gap: 16px;  
+
+    h3 {
+        color: $color-black;
+        border-bottom: 3px solid $color_gold;
+        width: 12%;
+        font-weight: 400;
+    }
 }
 
-.list-container li {
+.prestations {
     display: flex;
-    justify-content: space-between;
+    background-color: $color_white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px gray;
+    align-items: center;
+
+    &_animation {
+        display: grid;
+        place-items: center;
+        background-color: $color_gold;    
+        margin-right: -62px;
+        width: 62px;
+        height: 72px;
+        transition: all 0.5s;
+    }
+    
+    p, h4 {
+        margin-bottom: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-text {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+
+
+        &--p {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            height: 100%;
+
+        }
+    }
 }
 
-.list-container span {
-    margin-left: 25px;
+.prestations:hover .prestations_animation {
+    margin-right: 0;
+    transition: all 0.5s;
 }
+
+.prestations > * {
+    padding: 16px 16px;
+}
+
 
 .list-image img {
     width: 100%;
+}
+
+.icon-presta {
+    display: grid;
+    place-items: center;
+    color: $color_gold;
+    background-color: $color_white;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;   
 }

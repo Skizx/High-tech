@@ -45,19 +45,19 @@ const Navbar = () => {
                 <div id="navbarList" className={`navbar-list ${mobileMenu ? 'show-nav' : 'hide-nav'}`}>
                     <ul className="navbar-ul">
                         <li>
-                        <a href='/'>Accueil</a>
+                        <Link to='/'>Accueil</Link>
                         </li>
                         <li>
-                        <a href='/#about'>A propos</a>
+                        <Link to='/#about'>A propos</Link>
                         </li>
                         <li>
-                        <a href='/#prestation'>Prestation</a>
+                        <Link to='/prestation'>Prestation</Link>
                         </li>
                         <li>
-                        <a href='/#galerie'>Galerie</a>
+                        <Link to='/galerie'>Galerie</Link>
                         </li>
                         <li>
-                        <a href='/#contact'>Contact</a>
+                        <a href='#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>

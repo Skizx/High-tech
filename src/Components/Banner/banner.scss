@@ -1,12 +1,8 @@
 @import '../../Styles/Utils/variables.scss';
 
 .banner-block {
-    background-color: $bgcolor_blue;
+    background-color: $color_gold;
     padding: 80px 0;
-
-    @media screen and (min-width:992px) {
-        padding: 160px 0;
-    }
 }
 
 .banner-title {
@@ -40,14 +36,20 @@
 }
 
 .banner-btn a {
+    background-color: $color_gold;
     border: 1px solid $color_white;
-    padding: 20px;
+    color: $color_white;
+    padding: 10px;
     border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     display: inline-block;
-    width: 200px;
+    font-weight: 700;
+    font-size: 14px;
 
     &:hover {
         background-color: $color_white;
-        color: $bgcolor_blue;
+        color: $color_gold;
     }
 }

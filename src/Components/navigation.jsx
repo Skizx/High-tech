@@ -54,10 +54,10 @@ const Navigation = () => {
                         <a href='#about'>A propos</a>
                         </li>
                         <li>
-                        <a href='#prestation'>Prestation</a>
+                        <Link to='/prestation'>Prestation</Link>
                         </li>
                         <li>
-                        <a href='#galerie'>Galerie</a>
+                        <Link to='/galerie'>Galerie</Link>
                         </li>
                         <li>
                         <a href='#contact'>Contact</a>
