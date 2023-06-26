@@ -3,7 +3,34 @@
 .footer-block {
     color: $color_white;
     background-color: $bgcolor_blue;
-    height: 80px;
+}
+
+
+.footer-list_img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.footer-list_img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.footer-list_icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-block p {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
 }
 
 .footer-title {
@@ -12,8 +39,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: 2px;
 
     @media screen and (min-width:992px) {
-        font-size: 18px;
+        font-size: 24px;
     }
 }
