@@ -84,13 +84,13 @@ const Navigation = () => {
         bullets={false}
         button={false}
         >
-        <div data-src="/src/images/woman-2359562_1920.jpg" alt="Image coiffure femme fond noir" className='carousel-text wrapper-carrousel'>
+        <div data-src="/images/woman-2359562_1920.jpg" alt="Image coiffure femme fond noir" className='carousel-text wrapper-carrousel'>
             <h2>Bienvenue chez Steph Style Coiffure</h2>
         </div>
-        <div data-src="/src/images/pink-hair-1450045_1920.jpg" alt="Image coiffure femme cheveux rose" className='carousel-text wrapper-carrousel'>
+        <div data-src="/images/pink-hair-1450045_1920.jpg" alt="Image coiffure femme cheveux rose" className='carousel-text wrapper-carrousel'>
             <h2>Hapiness is a good hair day</h2>
         </div>
-        <div data-src="/src/images/hairdresser-4666064_1920.jpg" alt="Image sacoche outils de coiffure" className='carousel-text wrapper-carrousel'>
+        <div data-src="/images/hairdresser-4666064_1920.jpg" alt="Image sacoche outils de coiffure" className='carousel-text wrapper-carrousel'>
             <h2>Love is in the hair</h2>
         </div>
         </AutoplaySlider>
