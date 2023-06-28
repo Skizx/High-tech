@@ -8,6 +8,8 @@ import BannerWomen from "../Components/BannerWomen/BannerWomen";
 import BannerMen from "../Components/BannerMen/BannerMen";
 import Eprestation from "../Components/EPrestation/Eprestation";
 import Bannerchild from "../Components/BannerChild/Bannerchild";
+import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 const Prestations = () => {
 
@@ -100,7 +102,11 @@ const Prestations = () => {
                 </div>
             </div>
             </section>
+            <Contact />
         </main>
+        <footer>
+           <Footer />
+        </footer>
         </>
     );
 };

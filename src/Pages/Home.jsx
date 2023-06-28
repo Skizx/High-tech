@@ -4,6 +4,8 @@ import Banner from "../Components/Banner/Banner";
 import Gallery from "../Components/Gallery/Gallery";
 import Prestation from "../Components/Prestation/Prestation";
 import bannerData from '../Data/bannerData.json';
+import Footer from "../Components/Footer";
+import Contact from "../Components/Contact";
 
 const Home = () => {
     return (
@@ -32,7 +34,11 @@ const Home = () => {
             />
              </section>
              <Gallery />
+             <Contact />
         </main>
+        <footer>
+           <Footer />
+        </footer>
         </>
     );
 };

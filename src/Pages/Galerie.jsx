@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import AboutGallery from "../Components/AboutGallery/AboutGallery";
 import Navbar from "../Components/Navbar/Navbar";
+import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 const Galerie = () => {
 
@@ -16,7 +18,13 @@ const Galerie = () => {
         <header>
             <Navbar /> 
         </header>
-        <AboutGallery />
+        <main>
+            <AboutGallery />
+            <Contact />
+        </main>
+        <footer>
+           <Footer />
+        </footer>
         </>
     );
 };

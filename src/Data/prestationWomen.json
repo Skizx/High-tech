@@ -1,26 +1,26 @@
 [
     {
-        "title" : "Shampooing + Coiffage",
+        "title" : "Carré plongeant",
         "price" : 31
     },
     {
-        "title" : "Shampooing + Coupe + Coiffage",
+        "title" : "Tresse",
         "price" : 55
     },
     {
-        "title" : "Shampooing + Coupe + Coiffage étudiant",
+        "title" : "Coupe courte avec frange",
         "price" : 45
     },
     {
-        "title" : "Shampooing + Coupe + Coiffage enfant -12ans",
+        "title" : "Coupe courte ondulée",
         "price" : 25
     },
     {
-        "title" : "Shampooing + Coupe + Coiffage Attaché",
+        "title" : "Coupe dégradée cheveux longs",
         "price" : 55
     },
     {
-        "title" :"Shampooing + Coupe + Coiffage Chignon",
+        "title" :"Couleurs",
         "price" : 90 
     }
 ]
