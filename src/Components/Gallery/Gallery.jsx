@@ -10,7 +10,7 @@ const Gallery = () => {
                 <div className="flex-center_content">
                     <h2 className="gallery-title txt-center">Galeries photos</h2>
                 </div>
-                    <p className='txt-center'>Quelques exemples de mes réalisations.</p>
+                    <p className='txt-center'>Vous y trouverez mes dernières réalisations.</p>
                 <div className="gallery-container">
                     <figure className="gallery-card">
                             <ModalImage

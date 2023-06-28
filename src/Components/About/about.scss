@@ -78,9 +78,15 @@
     justify-content: center ;
 
     @media screen and (min-width:992px) {
-        width: 100%;
+        width: 50%;
     }
     
+}
+
+@media screen and (min-width:992px) {
+    .about-text_container {
+        width: 50%;
+    }
 }
 
 .about-img img {

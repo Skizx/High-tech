@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './bannerchild.scss';
 
 const Bannerchild = () => {
@@ -6,9 +7,9 @@ const Bannerchild = () => {
         <section id="bannerchild" className="bannerchild-block">
         <div className="wrapper">
             <div className="bannerchild-text">
-            <h2>Coiffeur Enfant</h2>
-            <p>Avec des années d’expérience, nous vous accueillons dans nos salons de coiffure spécialisés en coupe homme. Dans un esprit “rétro” et “tendance”, votre coiffeur vous proposera des coupes déstructurées, adaptées à la morphologie de votre visage et vos envies. De la coupe au nouveau style, en passant par des conseils et soins personnalisés, nos coiffeurs homme sont à votre écoute et répondent à tous vos besoins capillaires.</p>
-            </div>
+            <h2>La coiffure enfant</h2>
+            <p>La coiffure pour enfants est une façon ludique et créative d'exprimer leur individualité et leur personnalité dès leur plus jeune âge. Des coupes amusantes et originales aux styles mignons et pratiques.</p>
+        </div>
         </div> 
         </section>   
         </>

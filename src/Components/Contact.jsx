@@ -36,7 +36,7 @@ const Contact = () => {
                 <h2 className="contact-title txt-center">Contact</h2>
             </div>
                 <div className="contact-text">
-                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au 06 73 76 59 06.</p>
+                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au A venir.</p>
                 </div>
                 <div className="horaire">
                     <div className="formulaire-group">
@@ -58,7 +58,7 @@ const Contact = () => {
                                         <h3>Téléphone</h3>
                                     </div>
                                     <div className="detail-text">
-                                        <p>06 73 76 59 06</p>
+                                        <p>A Venir</p>
                                     </div>
                                 </div>
                                 <div className="detail-block">
@@ -67,7 +67,7 @@ const Contact = () => {
                                         <h3>Email</h3>
                                     </div>
                                     <div className="detail-text">
-                                        <p>fany_22@hotmail.fr</p>
+                                        <p>prochainement</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                 <h2 className="contact-title txt-center">Contact</h2>
             </div>
                 <div className="contact-text">
-                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au 06 73 76 59 06.</p>
+                    <p>Vous pouvez me contacter pour prendre rendez-vous, ainsi que tout renseignement en remplissant les champs ci-dessous ou par téléphone au A venir.</p>
                 </div>
                 <div className="horaire">
                     <div className="formulaire-group">
@@ -121,7 +121,7 @@ const Contact = () => {
                                         <h3>Téléphone</h3>
                                     </div>
                                     <div className="detail-text">
-                                        <p>06 73 76 59 06</p>
+                                        <p>A venir</p>
                                     </div>
                                 </div>
                                 <div className="detail-block">
@@ -130,7 +130,7 @@ const Contact = () => {
                                         <h3>Email</h3>
                                     </div>
                                     <div className="detail-text">
-                                        <p>fany_22@hotmail.fr</p>
+                                        <p>Prochainement</p>
                                     </div>
                                 </div>
                             </div>

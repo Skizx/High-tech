@@ -51,11 +51,11 @@ const Prestations = () => {
             <div className="list-container">
                 <h3>{coiffure}</h3>
                 <ListPrestation
-                title = "Shampooing + coiffage"
+                title = "Dégradé"
                 price = "24"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage"
+                title = "Coupe effilée"
                 price = "34"
                 />
                 <ListPrestation
@@ -63,11 +63,11 @@ const Prestations = () => {
                 price = "49"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage étudiants (du lundi au mercredi)"
+                title = "Coupe undercut"
                 price = "20"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage enfants -12 ans"
+                title = "Man bun"
                 price = "28"
                 />
                 </div>
@@ -80,11 +80,11 @@ const Prestations = () => {
             <div className="list-container">
                 <h3>{coiffure}</h3>
                 <ListPrestation
-                title = "Shampooing + coiffage"
+                title = "Shampooing coiffage"
                 price = "12"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage"
+                title = "Shampooing coupe coiffage"
                 price = "24"
                 />
                 <ListPrestation
@@ -92,11 +92,11 @@ const Prestations = () => {
                 price = "39"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage étudiants (du lundi au mercredi)"
+                title = "Shampooing coupe coiffage étudiants"
                 price = "10"
                 />
                 <ListPrestation
-                title = "Shampooing + coupe + coiffage enfants -12 ans"
+                title = "Shampooing coupe coiffage enfants -12 ans"
                 price = "15"
                 />
                 </div>

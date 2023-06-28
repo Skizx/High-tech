@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './about.scss';
 
 const About = () => {
@@ -17,9 +18,11 @@ const About = () => {
                             <h3>Présentation</h3>
                         </div>
                         <div className="about-content_text txt-center">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati sunt vel excepturi.
-                                Natus temporibus beatae tempore officia nam eligendi hic laudantium soluta assumenda,
-                                eum minima cupiditate molestiae suscipit nesciunt quisquam.
+                            <p>Coiffeuse fraîchement diplômée, passionnée par l'art de la coiffure à domicile.
+                                Avec une créativité débordante et un sens aiguisé des tendances,
+                                j'apporte fraîcheur et dynamisme à chaque séance de coiffure.
+                                Faites-moi confiance et profitez de mon expertise émergente pour des coupes modernes, des colorations éclatantes et des styles uniques,
+                                le tout dans le confort de votre propre foyer.
                             </p>
                         </div>
                     </div>
